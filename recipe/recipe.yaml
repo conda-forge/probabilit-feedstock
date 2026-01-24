@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: probabilit
-  version: "0.4.0"
+  version: "0.4.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/probabilit-${{ version }}.tar.gz
-  sha256: b9dfa6f89b43bbc9d5117126b6f1f7a9c62a4c78fa4705e62e226d8efa4cec5c
+  sha256: d2a104a3bd1d534094ff49273d1978a31d43e01d96d7e9701860312ce0aeac0f
 
 build:
   number: 0
