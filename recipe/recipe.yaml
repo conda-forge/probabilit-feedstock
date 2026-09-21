@@ -21,11 +21,10 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - setuptools >=66.1
-    - wheel
     - pip
   run:
     - python >=${{ python_min }}
-    - numpy >=2
+    - numpy >=2.2
     - scipy
     - networkx
     - seaborn
