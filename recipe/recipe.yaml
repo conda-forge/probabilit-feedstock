@@ -33,6 +33,7 @@ requirements:
     - cvxpy
     # not listed but needed
     - cffi
+    - setuptools >=66.1
 
 tests:
   - python:
